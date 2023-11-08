@@ -1,0 +1,17 @@
+sample	library	readgroup	R1	R1_md5
+A17_1_Q2	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/A17_1_Q2_R1.fastq.gz	3f3899dfb7cc6903c6cf75ea4c8c1c10
+A17_1_Q3	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/A17_1_Q3_R1.fastq.gz	8b931e7f4d84543a27f6a1222798ff47
+A17_1_Q4	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/A17_1_Q4_R1.fastq.gz	d6857c59c44d565f24208875131ecb61
+A17_1_Q5	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/A17_1_Q5_R1.fastq.gz	b06c161f74ce4a04125b7ec194642e9f
+A17_1_Q6	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/A17_1_Q6_R1.fastq.gz	7ec913f332f72dfca470b9f9c29a7a7f
+D7E_1	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/D7E_1_R1.fastq.gz	74dcd6655510b561b8599e0a32ac7b33
+D7E_2	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/D7E_2_R1.fastq.gz	fec0a94686fe1844f846e31d0fe20ab3
+D7E_3	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/D7E_3_R1.fastq.gz	af1145e3296ed0f95eb22b6680778c62
+FVB_Q2	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/FVB_Q2_R1.fastq.gz	2275b4875056b70d6f8e2ef4c8e8b49d
+FVB_Q3	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/FVB_Q3_R1.fastq.gz	fea4c0bd50d35b0cab609d854639d84b
+FVB_Q4	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/FVB_Q4_R1.fastq.gz	571ab194976f180b6e6fc6a7571f9bab
+FVB_Q5	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/FVB_Q5_R1.fastq.gz	892cb41c791e1d9236fc7b455653df25
+FVB_Q6	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/FVB_Q6_R1.fastq.gz	522ce63bf4e3461260b117f262ca944b
+WTA_1	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/WTA_1_R1.fastq.gz	360c86cacc502bdad29d862bd909d4da
+WTA_2	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/WTA_2_R1.fastq.gz	2edabec5726c54a28571e86a90adbebb
+WTA_3	lib	rg	/exports/sasc/project-390-APAVeredMilad/data/WTA_3_R1.fastq.gz	6d28948bb63420bab26e9994e6086996
