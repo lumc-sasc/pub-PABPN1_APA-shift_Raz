@@ -14,5 +14,16 @@ All mouse and human reads in FASTQ format are processed using [BioWDL RNAseq pip
 With this APA proximal and distal annotation GTF file generated in step 1 and the human and mouse transcriptome-based alignment file generated in step2 as input, we quantified the APA enrichment signal at both proximal and distal regions using featureCounts (v2.0.1) with option “-M” to include multiple mapped reads. 
 
 ## step4_differential_analysis_APA
+APA-shift calculates the ratio of reads between proximal to distal at the 3’UTR. Only reads at the  3’UTR are considered. The code includes: filtering of transcripts with low read counts, calculation of proximal to distal ratio, statistical analysis to determine transcripts with APA-shift between control (‘CTRL’) and the condition of interest (‘COI’), and calculation of fold change ratios. 
+
+In summary, this code performs the following tasks:
+1.	Reads an Excel file containing gene expression data.
+2.	Filters and preprocesses the data by selecting relevant rows and columns.
+3.	Computes log-ratios and conducts t-tests for each gene.
+4.	Calculates p-values and adjusts them using the False Discovery Rate (FDR) method.
+5.	Calculates log-fold changes.
+6.	Writes the results to an output CSV file.
+Make sure to replace "C:/your/path/file.xlsx" with the actual path to your Excel file and review the code to ensure it is compatible with your specific dataset and analysis requirements.
 
 ## step5_visualization
+APA_shift results are visualized using the tools here: [ggVolcanoR](https://github.com/KerryAM-R/ggVolcanoR). Different cut-off criteria can be used, and different axis adjustments are available. Pointing and labeling options are useful for the output. Different output file and formats, like Images and tables are available. 
